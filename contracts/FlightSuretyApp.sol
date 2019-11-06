@@ -31,7 +31,7 @@ contract FlightSuretyApp {
 
     uint8 private constant AIRLINES_COUNT_TO_REQUIRE_CONSENSUS = 4;
     address[] private uniqueVoters;
-    // SafeMath does not support division, so I will trick it with inverse threshold for consensus
+    // SafeMath does not support division, so I will trick it with inverse threshold for consensus = > This is great
     // Here if you want to set 50% of voters as consensus, you need to set:
     // totalVoterConsensus = 1
     // uniqueVoterConsensus = 2
