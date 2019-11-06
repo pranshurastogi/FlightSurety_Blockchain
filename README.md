@@ -20,7 +20,7 @@ npm install
 #### Start Ganache
 You will need specific configuration of ganache. So run:
 ```bash
-ganache-cli -l 999999999999 -m "Melted Vegeta Enjoyed Minnie Judgmentally Since Unicorns Negotiated Prettily" -e 10000 -a 30
+ganache-cli -l 999999999999 -m "candy maplcake sugar puddi cream honey rich smooth crumble sweet treat" -e 10000 -a 30
 ```
 This command will create the local test network with the following props:
 1. gas limit = 999999999999
